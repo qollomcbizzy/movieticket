@@ -1,0 +1,13 @@
+#show-details{
+  display:none;
+  padding-top: 40px;
+  font-size: 20px;
+}
+.task{
+  cursor: pointer;
+  color: black;
+}
+.task:hover{
+  text-decoration: underline;
+  color: blue;
+}
