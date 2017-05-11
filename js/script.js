@@ -14,6 +14,105 @@ Ticket.prototype.price=function(){
   else if(this.ticketMovie === "romance" && this.ticketAge === "old" && this.ticketTime ==="morning"){
     return "70ksh";
   }
+  else if(this.ticketMovie === "action" && this.ticketAge === "youth" && this.ticketTime === "morning"){
+    return "55ksh";
+  }
+  else if(this.ticketMovie === "action" && this.ticketAge === "young" && this.ticketTime ==="morning"){
+    return "20ksh";
+  }
+  else if(this.ticketMovie === "action" && this.ticketAge === "old" && this.ticketTime ==="morning"){
+    return "90ksh";
+  }
+  else if(this.ticketMovie === "series" && this.ticketAge === "youth" && this.ticketTime === "morning"){
+    return "70ksh";
+  }
+  else if(this.ticketMovie === "series" && this.ticketAge === "young" && this.ticketTime ==="morning"){
+    return "50ksh";
+  }
+  else if(this.ticketMovie === "series" && this.ticketAge === "old" && this.ticketTime ==="morning"){
+    return "100ksh";
+  }
+  else if(this.ticketMovie === "fiction" && this.ticketAge === "youth" && this.ticketTime === "morning"){
+    return "55ksh";
+  }
+  else if(this.ticketMovie === "fiction" && this.ticketAge === "young" && this.ticketTime ==="morning"){
+    return "20ksh";
+  }
+  else if(this.ticketMovie === "fiction" && this.ticketAge === "old" && this.ticketTime ==="morning"){
+    return "90ksh";
+  }
+  else if(this.ticketMovie === "romance" && this.ticketAge === "youth" && this.ticketTime === "afternoon"){
+    return "50ksh";
+  }
+  else if(this.ticketMovie === "romance" && this.ticketAge === "young" && this.ticketTime ==="afternoon"){
+    return "20ksh";
+  }
+  else if(this.ticketMovie === "romance" && this.ticketAge === "old" && this.ticketTime ==="afternoon"){
+    return "70ksh";
+  }
+  else if(this.ticketMovie === "action" && this.ticketAge === "youth" && this.ticketTime === "afternoon"){
+    return "55ksh";
+  }
+  else if(this.ticketMovie === "action" && this.ticketAge === "young" && this.ticketTime ==="afternoon"){
+    return "20ksh";
+  }
+  else if(this.ticketMovie === "action" && this.ticketAge === "old" && this.ticketTime ==="afternoon"){
+    return "90ksh";
+  }
+  else if(this.ticketMovie === "series" && this.ticketAge === "youth" && this.ticketTime === "afternoon"){
+    return "70ksh";
+  }
+  else if(this.ticketMovie === "series" && this.ticketAge === "young" && this.ticketTime ==="afternoon"){
+    return "50ksh";
+  }
+  else if(this.ticketMovie === "series" && this.ticketAge === "old" && this.ticketTime ==="afternoon"){
+    return "100ksh";
+  }
+  else if(this.ticketMovie === "fiction" && this.ticketAge === "youth" && this.ticketTime === "afternoon"){
+    return "55ksh";
+  }
+  else if(this.ticketMovie === "fiction" && this.ticketAge === "young" && this.ticketTime ==="afternoon"){
+    return "20ksh";
+  }
+  else if(this.ticketMovie === "fiction" && this.ticketAge === "old" && this.ticketTime ==="afternoon"){
+    return "90ksh";
+  }
+  else if(this.ticketMovie === "romance" && this.ticketAge === "youth" && this.ticketTime === "night"){
+    return "150ksh";
+  }
+  else if(this.ticketMovie === "romance" && this.ticketAge === "young" && this.ticketTime ==="night"){
+    return "100ksh";
+  }
+  else if(this.ticketMovie === "romance" && this.ticketAge === "old" && this.ticketTime ==="night"){
+    return "200ksh";
+  }
+  else if(this.ticketMovie === "action" && this.ticketAge === "youth" && this.ticketTime === "night"){
+    return "70ksh";
+  }
+  else if(this.ticketMovie === "action" && this.ticketAge === "young" && this.ticketTime ==="night"){
+    return "50ksh";
+  }
+  else if(this.ticketMovie === "action" && this.ticketAge === "old" && this.ticketTime ==="night"){
+    return "130ksh";
+  }
+  else if(this.ticketMovie === "series" && this.ticketAge === "youth" && this.ticketTime === "night"){
+    return "170ksh";
+  }
+  else if(this.ticketMovie === "series" && this.ticketAge === "young" && this.ticketTime ==="night"){
+    return "150ksh";
+  }
+  else if(this.ticketMovie === "series" && this.ticketAge === "old" && this.ticketTime ==="night"){
+    return "200ksh";
+  }
+  else if(this.ticketMovie === "fiction" && this.ticketAge === "youth" && this.ticketTime === "night"){
+    return "70ksh";
+  }
+  else if(this.ticketMovie === "fiction" && this.ticketAge === "young" && this.ticketTime ==="night"){
+    return "40ksh";
+  }
+  else if(this.ticketMovie === "fiction" && this.ticketAge === "old" && this.ticketTime ==="night"){
+    return "135ksh";
+  }
   else{
     return "choose a movie....";
   }
