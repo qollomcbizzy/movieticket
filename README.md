@@ -10,4 +10,5 @@ this project calculates the ticket for a book movie by a user according to movie
 1. Create a back-end interface with the properties of object tickets;
 2. Create the html and the user interface to receive inputted values
 3. create a copy constructor
-4. create div to show the ticket with the price
+4. create a prototype that  calculates the price  
+5. create div to show the ticket with the price
